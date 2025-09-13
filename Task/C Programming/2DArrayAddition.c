@@ -1,0 +1,72 @@
+//2 matrix addition
+#include<stdio.h>
+int main()
+{
+	int sum=0,i,j,row,col;
+	
+	printf("Enter number of rows: ");
+	scanf("%d",&row);
+	
+	printf("Enter number of columns: ");
+	scanf("%d",&col);
+	
+	int matrix1[row][col],matrix2[row][col],matrix3[row][col];
+	
+	printf("\nEnter the elements of 1st Matrix----");
+	
+	for(i=0;i<row;i++)
+	{
+		for(j=0;j<col;j++)
+		{
+			printf("\n\nEnter the element at [%d][%d]: ",i,j);
+			scanf("%d",&matrix1[i][j]);
+		}
+	}
+	
+	for(i=0;i<row;i++)
+	{
+		for(j=0;j<col;j++)
+		{
+			printf("\t%d ",matrix1[i][j]);
+		}
+		printf("\n");
+	}
+	printf("\nEnter the elements of 2nd Matrix----");
+	
+	
+	for(i=0;i<row;i++)
+	{
+		for(j=0;j<col;j++)
+		{
+			printf("\n\nEnter the element at [%d][%d]: ",i,j);
+			scanf("%d",&matrix2[i][j]);
+		}
+	}
+	
+	for(i=0;i<row;i++)
+	{
+		for(j=0;j<col;j++)
+		{
+			printf("\t%d ",matrix2[i][j]);
+		}
+		printf("\n");
+	}
+	
+	
+	for(i=0;i<row;i++)
+	{
+		for(j=0;j<col;j++)
+		{
+			matrix3[i][j] = matrix1[i][j]+matrix2[i][j];
+		}
+	}
+	printf("The sum of both matrices is: \n");
+	for(i=0;i<row;i++)
+	{
+		for(j=0;j<col;j++)
+		{
+			printf("\t%d ",matrix3[i][j]);
+		}
+		printf("\n");
+	}
+}
