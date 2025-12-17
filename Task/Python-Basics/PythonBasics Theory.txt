@@ -1,0 +1,60 @@
+What is Python?
+---------------------
+python is a most popular, advances, interpreted (line by line), object oriented powerful programming language.
+
+
+Wgy did you chose python?
+------------------------------------------
+or 
+why python?
+---------------------
+python has huge library collection, python syntax is same like english, python is easy to understand, clean and clear syntax.
+
+using of python we can develop websites, we can develop desktop applications, we can build mobile applications, we canuse python in machine learning, iot and data analytics.
+
+
+------------------------------------------
+what are the limitations or negative points of python?
+------------------------------------------
+python is slower language, because it uses interpreter.
+---------------------------------------------------------------
+
+there are 2 versions of python available
+
+1. python 2.0
+2. python 3.0
+
+	latest version is python 3.14
+	
+
+============================================================
+python official website is python.org
+
+-----------------------------------------
+
+to check python is installed or not?
+
+open cmd: win+r -> type "cmd" -> python --version
+
+-----------------------------------------
+
+print() : print is a function using of print function we can display appropriate message on console screen.
+
+	syntax ::
+	
+	print(message)
+	
+as per other languages there is no need of semicolon at the end of the line and no need to write \n for new line.
+
+by default print function start from new line.
+
+----------------------------------------------------------------------------------
+
+IDLE : Integrated development learning environment.
+
+IDE : Integrated development environment.
+
+	Python's official IDE is pycharm.
+	
+	vs code (Visual Studio Code)
+	
