@@ -1,0 +1,10 @@
+# Write a Python program to skip 'banana' in a list using the continue
+# statement. List1 = ['apple', 'banana', 'mango']
+
+list1 = ["apple", "banana", "mango", "orange"]
+
+for i in list1:
+    if (i == "banana"):
+        continue
+    else:
+        print(i)
